@@ -44,11 +44,11 @@ Your task is to build a **production-grade email scheduler service + dashboard**
 
 # Installation & Setup
 
-**1. Clone Repository**
+## 1. Clone Repository
 
 `git clone https://github.com/rka2005/ReachInbox.git`
 
-**2. Install of dependency for frontend and backend**
+## 2. Install of dependency for frontend and backend
 
 `cd frontend
 npm install`
@@ -56,7 +56,7 @@ npm install`
 `cd backend
 npm install`
 
-# Environment Configuaration
+## 3. Environment Configuaration
 
 ### Frontend/`.env`
 
@@ -75,4 +75,31 @@ GOOGLE_TOKEN_URI=<google_token_uri>
 GOOGLE_CLIENT_SECRET=<google_client_secret>
 GOOGLE_REDIRECT_URI=<google_redirect_uri>
 
+```
+
+## Google Authentication
+
+- Open Google Cloud Console
+- Select or create a new project
+- Move towards the *Credentials* which is under the *APIs & Services*
+- Choose web applications for OAuth client ID which is under create credentials
+- Add `http://localhost:5173` to authorized JavaScript origins
+- Add `http://localhost:5173/auth/google/callback` to authorized redirect URIs.
+
+# Run Application
+
+### To start frontend
+
+```
+cd frontend
+npm run dev
+```
+
+### To run backend
+
+open a new terminal first.
+
+```
+cd backend
+npm run dev
 ```
