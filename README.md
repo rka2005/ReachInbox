@@ -44,3 +44,28 @@ Your task is to build a **production-grade email scheduler service + dashboard**
 
 # Installation & Setup
 
+**1. Clone Repository**
+
+`git clone https://github.com/rka2005/ReachInbox.git`
+
+**2. Install of dependency for frontend and backend**
+
+`cd frontend
+npm install`
+
+`cd backend
+npm install`
+
+# Environment Configuaration
+
+### Backend `.env`
+`PORT=5000
+FRONTEND_URL=<your_frontend_url>
+
+# Paste the actual google authentication values
+GOOGLE_CLIENT_ID=<your_google_client_id>
+GOOGLE_PROJECT_ID=<your_google_project_id>
+GOOGLE_AUTH_URI=<google_auth_url>
+GOOGLE_TOKEN_URI=<google_token_uri>
+GOOGLE_CLIENT_SECRET=<google_client_secret>
+GOOGLE_REDIRECT_URI=<google_redirect_uri>
