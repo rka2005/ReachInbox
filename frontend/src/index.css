@@ -1,0 +1,52 @@
+@import 'tailwindcss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.loginpage {
+  align-items: center;
+  padding: 10rem 10rem;
+  justify-content: center;
+  display: flex;
+  background-color: #ffff;
+}
+
+.loginform {
+  width: 100%;
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 32px;
+  background-color: white;
+  border-radius: 16px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.google-button:hover {
+  background-color: #b6eec9;
+}
+
+.login-button:hover {
+  background-color: green;
+}
+
+input {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.dasboard {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: auto;
+}
