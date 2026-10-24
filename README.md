@@ -58,7 +58,12 @@ npm install`
 
 # Environment Configuaration
 
-### Backend `.env`
+### Frontend/`.env`
+
+`VITE_GOOGLE_CILENT_ID=<your_google_client_id>`
+
+### Backend/`.env`
+
 ```
 PORT=5000
 FRONTEND_URL=<your_frontend_url>
