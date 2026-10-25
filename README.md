@@ -46,15 +46,19 @@ Your task is to build a **production-grade email scheduler service + dashboard**
 
 ## 1. Clone Repository
 
-`git clone https://github.com/rka2005/ReachInbox.git`
+```git clone https://github.com/rka2005/ReachInbox.git```
 
 ## 2. Install of dependency for frontend and backend
 
-`cd frontend
-npm install`
+```
+cd frontend
+npm install
+```
 
-`cd backend
-npm install`
+```
+cd backend
+npm install
+```
 
 ## 3. Environment Configuaration
 
