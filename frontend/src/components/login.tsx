@@ -29,6 +29,8 @@ const Login = () => {
         throw new Error(data.message || "Google login failed");
       }
 
+      localStorage.setItem("googleUsers", JSON.stringify(data.user));
+
       console.log("Logged in user:", data.user);
 
       navigate("/dashboard");
