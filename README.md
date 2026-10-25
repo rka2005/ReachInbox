@@ -66,7 +66,9 @@ npm install
 
 ### Frontend/`.env`
 
-`VITE_GOOGLE_CILENT_ID=<your_google_client_id>`
+```
+VITE_GOOGLE_CILENT_ID=<your_google_client_id>
+```
 
 ### Backend/`.env`
 
